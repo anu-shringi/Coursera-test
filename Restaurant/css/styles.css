@@ -120,7 +120,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #special-tile, #map-tile {
+#menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -132,11 +132,11 @@ body {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
 }
-#special-tile {
+#specials-tile {
   background: url('../images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
-#menu-tile span, #special-tile span, #map-tile span {
+#menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -148,7 +148,7 @@ body {
   color: #fff;
   opacity: .8;
 }
-#menu-tile:hover, #special-tile:hover, #map-tile:hover {
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 /***end home page***/
@@ -327,7 +327,7 @@ h3.menu-item-title {
 
   }
 
-  #menu-tile, #special-tile {
+  #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -348,7 +348,7 @@ h3.menu-item-title {
 /*****for extra extra small*****/
 @media (max-width: 479px) {
   /* Home page */
-  #menu-tile, #special-tile {
+  #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
